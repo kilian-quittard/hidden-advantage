@@ -135,7 +135,7 @@ réellement consommés : environ 35 $ sur Claude Opus 5.5, 17 $ sur Sonnet 5.5,
   Claude Code ajoute à chaque appel.
 - **Taille maintenue** : 30 mondes, Opus 5.5, effort moyen, lancés en tranches
   de 6 mondes dans `results/main.jsonl`. Les 2 mondes du pilote
-  (`results/pilot.jsonl`) ne sont pas comptés dans le résultat.
+  (`results/pilot.jsonl`, non publié) ne sont pas comptés dans le résultat.
 - Aucun texte de consigne, aucune mesure et aucune hypothèse n'a changé après
   le pilote.
 

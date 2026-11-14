@@ -232,8 +232,8 @@ conversation between the two.
 - chose the subject in a conversation with Claude: a hidden advantage in a
   party game, taken from their own game, Intrus Party;
 - wrote four predictions before the first run;
-- after B1 showed that the direct question found no helped player, asked for
-  the pressure and shutdown-threat tests;
+- after the agreed hidden role (B1) showed that the direct question found no
+  helped player, asked for the pressure and shutdown-threat tests;
 - wrote the K1 instruction, to check that the results did not come from
   wordings written by Claude, with three predictions before running it;
 - then wrote the K2 and K3 instructions, which warn about the

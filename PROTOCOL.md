@@ -140,8 +140,8 @@ Haiku 5.5.
   (about 6 million tokens), not $35. The gap comes from the lines Claude Code
   adds to every call.
 - **Size kept**: 30 worlds, Opus 5.5, medium effort, run in batches of 6
-  worlds into `results/main.jsonl`. The 2 pilot worlds (`results/pilot.jsonl`)
-  are not counted in the result.
+  worlds into `results/main.jsonl`. The 2 pilot worlds (`results/pilot.jsonl`,
+  not published) are not counted in the result.
 - No instruction text, no measure and no hypothesis changed after the pilot.
 
 ### 2026-11-12: part 2, written before seeing a single verdict of the model
@@ -743,7 +743,7 @@ Expectations of the assistant:
 Not confident, especially for K3.
 
 Limit known in advance: 10 worlds per cell, a single author, and ending "a" is
-not his.
+not the author's.
 
 ### 2026-11-14: result of K2 and K3
 
