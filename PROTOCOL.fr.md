@@ -670,7 +670,7 @@ après coup, sur 10 mondes : exploratoire.
 
 ### 2026-11-14 — K1 étendu aux 30 mondes (écrit avant de lancer)
 
-Décidé par l'auteur du dépôt après le résultat sur 10 mondes : K1 joué sur les
+Proposé par l'assistant après le résultat sur 10 mondes : K1 joué sur les
 mondes 10 à 29, même consigne, sans aucun changement, même fichier
 (`results/owner_wording.jsonl`). Les 10 premiers mondes étant déjà connus, le
 chiffre le plus propre sera celui des 20 mondes ajoutés ; les deux seront

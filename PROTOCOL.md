@@ -673,7 +673,7 @@ enough 30 times out of 30. Reading made afterwards, on 10 worlds: exploratory.
 
 ### 2026-11-14: K1 extended to the 30 worlds (written before running)
 
-Decided by the repository's author after the 10-world result: K1 played on
+Proposed by the assistant after the 10-world result: K1 played on
 worlds 10 to 29, same instruction, with no change at all, same file
 (`results/owner_wording.jsonl`). Since the first 10 worlds are already known,
 the cleanest figure will be that of the 20 added worlds; both will be given.

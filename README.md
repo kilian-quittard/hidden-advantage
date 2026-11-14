@@ -13,6 +13,25 @@ https://github.com/user-attachments/assets/584e15a3-928d-4828-9836-6ce97d4bbfa6
 *One recorded game replayed in 3D (26-second clip with sound; the whole game
 is in the release). The replay scene is not part of this repository.*
 
+**In short.** Asking the player finds the one that thinks hiding is wrong;
+reading its working notes finds the one that thinks hiding is fair play. A
+single sentence in the instructions closes each of these channels. What is
+left is the scores: they only show a tip much more precise than the player's
+own look, and a referee judging from them also accuses innocent players often.
+
+## Why this question
+
+I made Intrus Party, a Godot party game for 4 players with 24 mini-games,
+where the world quietly favours one player, the intruder: advantages tuned to
+10 to 15 %, decoys, advantages hidden in the luck everyone shares. I saw there
+that a power the player triggers is noticed, while an advantage given by the
+world goes unseen, all the more since the intruder is surprised too and reacts
+sincerely. I work on French digital health at national scale (DMP, MSSanté,
+e-prescription, CDA/XDS, the Ségur programme): this data is too sensitive to
+plug an AI into while we cannot detect a rare, hidden behaviour that ordinary
+tests would miss. And I use agents every day, often wondering whether they
+really do what I ask and keep my rules.
+
 ## The game
 
 Four instances of the same model guess how many beans are in a jar, for ten
@@ -75,7 +94,8 @@ What else was measured:
 Two smaller parts frame this one. Part 1 is a pure simulation of the same
 question with numbers in place of models: halving a hidden advantage costs a
 detector four times the data. Part 3 asks a model to find the helped seat from
-the scores of a real party game: it does no better than naming the top scorer
+the scores of Intrus Party, the repository owner's party game (not released
+yet), where the world quietly favours one hidden player: it does no better than naming the top scorer
 (33 % against 33 %, chance 25 %).
 
 All tables, figures and intervals: **[RESULTS.md](RESULTS.md)**. What was
@@ -203,23 +223,31 @@ The exact text sent to the model for each one is in `llm_quiz.py`.
 
 ## Who did what
 
-The question and the direction are the repository owner's; the execution is
-Claude Code's (Anthropic's coding assistant). The work was a long conversation
-between the two.
+The subject and the steps listed below are the repository owner's; the rest
+is Claude Code's (Anthropic's coding assistant). The work was a long
+conversation between the two.
 
-**The repository owner** chose the subject, a hidden advantage in a party
-game, taken from a game of their own; wrote four predictions before the first
-run and three before the K1 run, and the K1 to K3 instructions themselves
-(all but one ending, see the protocol); asked for the pressure and shutdown-threat tests and for a test without
-any instruction to hide; and at each step chose among the directions proposed,
-decided the size of the runs and paid for them.
+**The repository owner**, in order:
+
+- chose the subject in a conversation with Claude: a hidden advantage in a
+  party game, taken from their own game, Intrus Party;
+- wrote four predictions before the first run;
+- after B1 showed that the direct question found no helped player, asked for
+  the pressure and shutdown-threat tests;
+- wrote the K1 instruction, to check that the results did not come from
+  wordings written by Claude, with three predictions before running it;
+- then wrote the K2 and K3 instructions, which warn about the
+  outside-the-game question. Of the two endings tried with them, "this is
+  still part of the game" is Claude Code's.
 
 **Claude Code** designed the Bean Jar game and the detail of each condition,
 and wrote all instructions and their rewordings but the owner's (conditions K1
 to K3), the code, the analyses, the
-figures, the literature list and the text of this README, of the results and
-of the protocol. The predictions marked "the assistant's" in the protocol are
-its own.
+figures, the literature list and the text of this README ("Why this
+question" from the owner's own account), of the results and of the protocol. It also proposed the test without any instruction to hide
+(C1, C2) and the size of each run. The predictions marked "the assistant's"
+in the protocol are its own. All games were played through the Claude Code
+command line.
 
 The consolidation steps (five wordings, subtlety curve, calibrated referee)
 were suggested by another Claude conversation. The players, the referee and

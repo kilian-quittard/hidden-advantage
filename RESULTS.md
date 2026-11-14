@@ -519,9 +519,10 @@ False alarms on the control games: 14 of 30 for the referee on scores, 10 of
 ## Part 3: a language model as the detective on a real party game
 
 Can a model read scores better than a simple rule? Bots played 400 free-for-all
-rounds of an unreleased 4-player party game (20 mini-games, 20 rounds each),
-where one hidden seat gets a discreet advantage. Three detectors name the
-intruder from the scores of one round. Calibration figures come from 60
+rounds of Intrus Party, the repository owner's 4-player party game, not
+released yet, in which the world quietly favours one hidden seat (20
+mini-games, 20 rounds each). Three detectors name the intruder from the
+scores of one round. Calibration figures come from 60
 separate rounds per mini-game.
 
 ![Detective](figures/5_detective.png)
