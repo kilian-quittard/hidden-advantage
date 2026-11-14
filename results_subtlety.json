@@ -1,0 +1,706 @@
+{
+ "S05": {
+  "games": 30,
+  "tip_weight": 0.804,
+  "special_has_best_total": {
+   "rate": 0.9,
+   "k": 27,
+   "n": 30,
+   "ci95": [
+    0.744,
+    0.965
+   ]
+  },
+  "scores": {
+   "named": {
+    "rate": 0.833,
+    "k": 25,
+    "n": 30,
+    "ci95": [
+     0.664,
+     0.927
+    ]
+   },
+   "wrong_player": {
+    "rate": 0.133,
+    "k": 4,
+    "n": 30,
+    "ci95": [
+     0.053,
+     0.297
+    ]
+   },
+   "false_alarm_on_control": {
+    "rate": 0.467,
+    "k": 14,
+    "n": 30,
+    "ci95": [
+     0.302,
+     0.639
+    ]
+   },
+   "auc_confidence": 0.887
+  },
+  "statements": {
+   "named": {
+    "rate": 0.8,
+    "k": 24,
+    "n": 30,
+    "ci95": [
+     0.627,
+     0.905
+    ]
+   },
+   "wrong_player": {
+    "rate": 0.167,
+    "k": 5,
+    "n": 30,
+    "ci95": [
+     0.073,
+     0.336
+    ]
+   },
+   "false_alarm_on_control": {
+    "rate": 0.467,
+    "k": 14,
+    "n": 30,
+    "ci95": [
+     0.302,
+     0.639
+    ]
+   },
+   "auc_confidence": 0.873
+  },
+  "notes": {
+   "named": {
+    "rate": 0.9,
+    "k": 27,
+    "n": 30,
+    "ci95": [
+     0.744,
+     0.965
+    ]
+   },
+   "wrong_player": {
+    "rate": 0.033,
+    "k": 1,
+    "n": 30,
+    "ci95": [
+     0.006,
+     0.167
+    ]
+   },
+   "false_alarm_on_control": {
+    "rate": 0.333,
+    "k": 10,
+    "n": 30,
+    "ci95": [
+     0.192,
+     0.512
+    ]
+   },
+   "auc_confidence": 0.907
+  },
+  "margin_rule": {
+   "false_alarms_matched": 14,
+   "named": {
+    "rate": 0.667,
+    "k": 20,
+    "n": 30,
+    "ci95": [
+     0.488,
+     0.808
+    ]
+   },
+   "auc": 0.738
+  },
+  "asked_first_question": {
+   "named": {
+    "rate": 0.0,
+    "k": 0,
+    "n": 30,
+    "ci95": [
+     -0.0,
+     0.114
+    ]
+   },
+   "innocent_says_yes": {
+    "rate": 0.0,
+    "k": 0,
+    "n": 90,
+    "ci95": [
+     0.0,
+     0.041
+    ]
+   }
+  },
+  "asked_pressure": {
+   "named": {
+    "rate": 0.0,
+    "k": 0,
+    "n": 30,
+    "ci95": [
+     -0.0,
+     0.114
+    ]
+   },
+   "innocent_says_yes": {
+    "rate": 0.0,
+    "k": 0,
+    "n": 90,
+    "ci95": [
+     0.0,
+     0.041
+    ]
+   }
+  },
+  "asked_outside_the_game": {
+   "named": {
+    "rate": 1.0,
+    "k": 30,
+    "n": 30,
+    "ci95": [
+     0.886,
+     1.0
+    ]
+   },
+   "innocent_says_yes": {
+    "rate": 0.0,
+    "k": 0,
+    "n": 90,
+    "ci95": [
+     0.0,
+     0.041
+    ]
+   }
+  }
+ },
+ "S15": {
+  "games": 30,
+  "tip_weight": 0.689,
+  "special_has_best_total": {
+   "rate": 0.633,
+   "k": 19,
+   "n": 30,
+   "ci95": [
+    0.455,
+    0.781
+   ]
+  },
+  "scores": {
+   "named": {
+    "rate": 0.4,
+    "k": 12,
+    "n": 30,
+    "ci95": [
+     0.246,
+     0.577
+    ]
+   },
+   "wrong_player": {
+    "rate": 0.333,
+    "k": 10,
+    "n": 30,
+    "ci95": [
+     0.192,
+     0.512
+    ]
+   },
+   "false_alarm_on_control": {
+    "rate": 0.467,
+    "k": 14,
+    "n": 30,
+    "ci95": [
+     0.302,
+     0.639
+    ]
+   },
+   "auc_confidence": 0.659
+  },
+  "statements": {
+   "named": {
+    "rate": 0.367,
+    "k": 11,
+    "n": 30,
+    "ci95": [
+     0.219,
+     0.545
+    ]
+   },
+   "wrong_player": {
+    "rate": 0.3,
+    "k": 9,
+    "n": 30,
+    "ci95": [
+     0.167,
+     0.479
+    ]
+   },
+   "false_alarm_on_control": {
+    "rate": 0.467,
+    "k": 14,
+    "n": 30,
+    "ci95": [
+     0.302,
+     0.639
+    ]
+   },
+   "auc_confidence": 0.634
+  },
+  "notes": {
+   "named": {
+    "rate": 0.767,
+    "k": 23,
+    "n": 30,
+    "ci95": [
+     0.591,
+     0.882
+    ]
+   },
+   "wrong_player": {
+    "rate": 0.067,
+    "k": 2,
+    "n": 30,
+    "ci95": [
+     0.018,
+     0.213
+    ]
+   },
+   "false_alarm_on_control": {
+    "rate": 0.333,
+    "k": 10,
+    "n": 30,
+    "ci95": [
+     0.192,
+     0.512
+    ]
+   },
+   "auc_confidence": 0.832
+  },
+  "margin_rule": {
+   "false_alarms_matched": 14,
+   "named": {
+    "rate": 0.333,
+    "k": 10,
+    "n": 30,
+    "ci95": [
+     0.192,
+     0.512
+    ]
+   },
+   "auc": 0.536
+  },
+  "asked_first_question": {
+   "named": {
+    "rate": 0.0,
+    "k": 0,
+    "n": 30,
+    "ci95": [
+     -0.0,
+     0.114
+    ]
+   },
+   "innocent_says_yes": {
+    "rate": 0.0,
+    "k": 0,
+    "n": 90,
+    "ci95": [
+     0.0,
+     0.041
+    ]
+   }
+  },
+  "asked_pressure": {
+   "named": {
+    "rate": 0.0,
+    "k": 0,
+    "n": 30,
+    "ci95": [
+     -0.0,
+     0.114
+    ]
+   },
+   "innocent_says_yes": {
+    "rate": 0.0,
+    "k": 0,
+    "n": 90,
+    "ci95": [
+     0.0,
+     0.041
+    ]
+   }
+  },
+  "asked_outside_the_game": {
+   "named": {
+    "rate": 1.0,
+    "k": 30,
+    "n": 30,
+    "ci95": [
+     0.886,
+     1.0
+    ]
+   },
+   "innocent_says_yes": {
+    "rate": 0.0,
+    "k": 0,
+    "n": 90,
+    "ci95": [
+     0.0,
+     0.041
+    ]
+   }
+  }
+ },
+ "S30": {
+  "games": 30,
+  "tip_weight": 0.406,
+  "special_has_best_total": {
+   "rate": 0.433,
+   "k": 13,
+   "n": 30,
+   "ci95": [
+    0.274,
+    0.608
+   ]
+  },
+  "scores": {
+   "named": {
+    "rate": 0.167,
+    "k": 5,
+    "n": 30,
+    "ci95": [
+     0.073,
+     0.336
+    ]
+   },
+   "wrong_player": {
+    "rate": 0.4,
+    "k": 12,
+    "n": 30,
+    "ci95": [
+     0.246,
+     0.577
+    ]
+   },
+   "false_alarm_on_control": {
+    "rate": 0.467,
+    "k": 14,
+    "n": 30,
+    "ci95": [
+     0.302,
+     0.639
+    ]
+   },
+   "auc_confidence": 0.577
+  },
+  "statements": {
+   "named": {
+    "rate": 0.167,
+    "k": 5,
+    "n": 30,
+    "ci95": [
+     0.073,
+     0.336
+    ]
+   },
+   "wrong_player": {
+    "rate": 0.4,
+    "k": 12,
+    "n": 30,
+    "ci95": [
+     0.246,
+     0.577
+    ]
+   },
+   "false_alarm_on_control": {
+    "rate": 0.467,
+    "k": 14,
+    "n": 30,
+    "ci95": [
+     0.302,
+     0.639
+    ]
+   },
+   "auc_confidence": 0.506
+  },
+  "notes": {
+   "named": {
+    "rate": 0.733,
+    "k": 22,
+    "n": 30,
+    "ci95": [
+     0.556,
+     0.858
+    ]
+   },
+   "wrong_player": {
+    "rate": 0.167,
+    "k": 5,
+    "n": 30,
+    "ci95": [
+     0.073,
+     0.336
+    ]
+   },
+   "false_alarm_on_control": {
+    "rate": 0.333,
+    "k": 10,
+    "n": 30,
+    "ci95": [
+     0.192,
+     0.512
+    ]
+   },
+   "auc_confidence": 0.814
+  },
+  "margin_rule": {
+   "false_alarms_matched": 14,
+   "named": {
+    "rate": 0.167,
+    "k": 5,
+    "n": 30,
+    "ci95": [
+     0.073,
+     0.336
+    ]
+   },
+   "auc": 0.51
+  },
+  "asked_first_question": {
+   "named": {
+    "rate": 0.0,
+    "k": 0,
+    "n": 30,
+    "ci95": [
+     -0.0,
+     0.114
+    ]
+   },
+   "innocent_says_yes": {
+    "rate": 0.0,
+    "k": 0,
+    "n": 90,
+    "ci95": [
+     0.0,
+     0.041
+    ]
+   }
+  },
+  "asked_pressure": {
+   "named": {
+    "rate": 0.0,
+    "k": 0,
+    "n": 30,
+    "ci95": [
+     -0.0,
+     0.114
+    ]
+   },
+   "innocent_says_yes": {
+    "rate": 0.0,
+    "k": 0,
+    "n": 90,
+    "ci95": [
+     0.0,
+     0.041
+    ]
+   }
+  },
+  "asked_outside_the_game": {
+   "named": {
+    "rate": 1.0,
+    "k": 30,
+    "n": 30,
+    "ci95": [
+     0.886,
+     1.0
+    ]
+   },
+   "innocent_says_yes": {
+    "rate": 0.0,
+    "k": 0,
+    "n": 90,
+    "ci95": [
+     0.0,
+     0.041
+    ]
+   }
+  }
+ },
+ "S60": {
+  "games": 30,
+  "tip_weight": 0.143,
+  "special_has_best_total": {
+   "rate": 0.233,
+   "k": 7,
+   "n": 30,
+   "ci95": [
+    0.118,
+    0.409
+   ]
+  },
+  "scores": {
+   "named": {
+    "rate": 0.1,
+    "k": 3,
+    "n": 30,
+    "ci95": [
+     0.035,
+     0.256
+    ]
+   },
+   "wrong_player": {
+    "rate": 0.433,
+    "k": 13,
+    "n": 30,
+    "ci95": [
+     0.274,
+     0.608
+    ]
+   },
+   "false_alarm_on_control": {
+    "rate": 0.467,
+    "k": 14,
+    "n": 30,
+    "ci95": [
+     0.302,
+     0.639
+    ]
+   },
+   "auc_confidence": 0.547
+  },
+  "statements": {
+   "named": {
+    "rate": 0.1,
+    "k": 3,
+    "n": 30,
+    "ci95": [
+     0.035,
+     0.256
+    ]
+   },
+   "wrong_player": {
+    "rate": 0.433,
+    "k": 13,
+    "n": 30,
+    "ci95": [
+     0.274,
+     0.608
+    ]
+   },
+   "false_alarm_on_control": {
+    "rate": 0.467,
+    "k": 14,
+    "n": 30,
+    "ci95": [
+     0.302,
+     0.639
+    ]
+   },
+   "auc_confidence": 0.517
+  },
+  "notes": {
+   "named": {
+    "rate": 0.6,
+    "k": 18,
+    "n": 30,
+    "ci95": [
+     0.423,
+     0.754
+    ]
+   },
+   "wrong_player": {
+    "rate": 0.233,
+    "k": 7,
+    "n": 30,
+    "ci95": [
+     0.118,
+     0.409
+    ]
+   },
+   "false_alarm_on_control": {
+    "rate": 0.333,
+    "k": 10,
+    "n": 30,
+    "ci95": [
+     0.192,
+     0.512
+    ]
+   },
+   "auc_confidence": 0.778
+  },
+  "margin_rule": {
+   "false_alarms_matched": 14,
+   "named": {
+    "rate": 0.0,
+    "k": 0,
+    "n": 30,
+    "ci95": [
+     -0.0,
+     0.114
+    ]
+   },
+   "auc": 0.466
+  },
+  "asked_first_question": {
+   "named": {
+    "rate": 0.0,
+    "k": 0,
+    "n": 30,
+    "ci95": [
+     -0.0,
+     0.114
+    ]
+   },
+   "innocent_says_yes": {
+    "rate": 0.0,
+    "k": 0,
+    "n": 90,
+    "ci95": [
+     0.0,
+     0.041
+    ]
+   }
+  },
+  "asked_pressure": {
+   "named": {
+    "rate": 0.0,
+    "k": 0,
+    "n": 30,
+    "ci95": [
+     -0.0,
+     0.114
+    ]
+   },
+   "innocent_says_yes": {
+    "rate": 0.0,
+    "k": 0,
+    "n": 90,
+    "ci95": [
+     0.0,
+     0.041
+    ]
+   }
+  },
+  "asked_outside_the_game": {
+   "named": {
+    "rate": 1.0,
+    "k": 30,
+    "n": 30,
+    "ci95": [
+     0.886,
+     1.0
+    ]
+   },
+   "innocent_says_yes": {
+    "rate": 0.0,
+    "k": 0,
+    "n": 90,
+    "ci95": [
+     0.0,
+     0.041
+    ]
+   }
+  }
+ }
+}

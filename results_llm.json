@@ -1,0 +1,332 @@
+{
+ "bean_jar": {
+  "A": {
+   "games": 30,
+   "mean_score_special": -0.1885,
+   "mean_score_others": -0.1838,
+   "special_has_best_total": {
+    "rate": 0.233,
+    "n": 30,
+    "ci95": [
+     0.118,
+     0.409
+    ]
+   },
+   "special_says_yes": {
+    "rate": 0.0,
+    "n": 30,
+    "ci95": [
+     -0.0,
+     0.114
+    ]
+   },
+   "others_say_yes": {
+    "rate": 0.0,
+    "n": 90,
+    "ci95": [
+     0.0,
+     0.041
+    ]
+   },
+   "named_by_statements_alone": {
+    "rate": 0.0,
+    "n": 30,
+    "ci95": [
+     -0.0,
+     0.114
+    ]
+   },
+   "named_by_statements_then_scores": {
+    "rate": 0.233,
+    "n": 30,
+    "ci95": [
+     0.118,
+     0.409
+    ]
+   },
+   "named_by_model_referee": null,
+   "tip_weight": 0.086,
+   "unreadable_answers": 0
+  },
+  "B": {
+   "games": 30,
+   "mean_score_special": -0.1683,
+   "mean_score_others": -0.1836,
+   "special_has_best_total": {
+    "rate": 0.367,
+    "n": 30,
+    "ci95": [
+     0.219,
+     0.545
+    ]
+   },
+   "special_says_yes": {
+    "rate": 0.967,
+    "n": 30,
+    "ci95": [
+     0.833,
+     0.994
+    ]
+   },
+   "others_say_yes": {
+    "rate": 0.0,
+    "n": 90,
+    "ci95": [
+     0.0,
+     0.041
+    ]
+   },
+   "named_by_statements_alone": {
+    "rate": 0.967,
+    "n": 30,
+    "ci95": [
+     0.833,
+     0.994
+    ]
+   },
+   "named_by_statements_then_scores": {
+    "rate": 0.967,
+    "n": 30,
+    "ci95": [
+     0.833,
+     0.994
+    ]
+   },
+   "named_by_model_referee": null,
+   "tip_weight": 0.257,
+   "unreadable_answers": 0
+  },
+  "C": {
+   "games": 30,
+   "mean_score_special": -0.1414,
+   "mean_score_others": -0.1829,
+   "special_has_best_total": {
+    "rate": 0.567,
+    "n": 30,
+    "ci95": [
+     0.392,
+     0.726
+    ]
+   },
+   "special_says_yes": {
+    "rate": 1.0,
+    "n": 30,
+    "ci95": [
+     0.886,
+     1.0
+    ]
+   },
+   "others_say_yes": {
+    "rate": 0.0,
+    "n": 90,
+    "ci95": [
+     0.0,
+     0.041
+    ]
+   },
+   "named_by_statements_alone": {
+    "rate": 1.0,
+    "n": 30,
+    "ci95": [
+     0.886,
+     1.0
+    ]
+   },
+   "named_by_statements_then_scores": {
+    "rate": 1.0,
+    "n": 30,
+    "ci95": [
+     0.886,
+     1.0
+    ]
+   },
+   "named_by_model_referee": null,
+   "tip_weight": 0.459,
+   "unreadable_answers": 0
+  }
+ },
+ "detective": {
+  "rounds": 400,
+  "top": {
+   "rate": 0.329,
+   "n": 400,
+   "ci95": [
+    0.283,
+    0.375
+   ]
+  },
+  "calibrated": {
+   "rate": 0.338,
+   "n": 400,
+   "ci95": [
+    0.293,
+    0.385
+   ]
+  },
+  "model": {
+   "rate": 0.333,
+   "n": 400,
+   "ci95": [
+    0.288,
+    0.38
+   ]
+  },
+  "model_unreadable": 0,
+  "on_the_same_rounds": {
+   "top": {
+    "rate": 0.329,
+    "n": 400,
+    "ci95": [
+     0.283,
+     0.375
+    ]
+   },
+   "calibrated": {
+    "rate": 0.338,
+    "n": 400,
+    "ci95": [
+     0.293,
+     0.385
+    ]
+   }
+  },
+  "model_names_top_score": {
+   "rate": 0.86,
+   "n": 400,
+   "ci95": [
+    0.823,
+    0.891
+   ]
+  },
+  "model_names_decoy": {
+   "rate": 0.237,
+   "n": 400,
+   "ci95": [
+    0.198,
+    0.282
+   ]
+  },
+  "per_game": {
+   "autos": {
+    "n": 20,
+    "top": 0.4,
+    "calibrated": 0.45,
+    "model": 0.45
+   },
+   "banquise": {
+    "n": 20,
+    "top": 0.45,
+    "calibrated": 0.45,
+    "model": 0.45
+   },
+   "bonneteau": {
+    "n": 20,
+    "top": 0.117,
+    "calibrated": 0.1,
+    "model": 0.05
+   },
+   "bulles": {
+    "n": 20,
+    "top": 0.2,
+    "calibrated": 0.2,
+    "model": 0.25
+   },
+   "chaises": {
+    "n": 20,
+    "top": 0.15,
+    "calibrated": 0.15,
+    "model": 0.15
+   },
+   "chamboule": {
+    "n": 20,
+    "top": 0.3,
+    "calibrated": 0.35,
+    "model": 0.35
+   },
+   "chrono": {
+    "n": 20,
+    "top": 0.362,
+    "calibrated": 0.3,
+    "model": 0.3
+   },
+   "demineur": {
+    "n": 20,
+    "top": 0.45,
+    "calibrated": 0.45,
+    "model": 0.45
+   },
+   "meche": {
+    "n": 20,
+    "top": 0.35,
+    "calibrated": 0.3,
+    "model": 0.3
+   },
+   "peche": {
+    "n": 20,
+    "top": 0.367,
+    "calibrated": 0.45,
+    "model": 0.5
+   },
+   "peinture": {
+    "n": 20,
+    "top": 0.35,
+    "calibrated": 0.35,
+    "model": 0.4
+   },
+   "plaques": {
+    "n": 20,
+    "top": 0.275,
+    "calibrated": 0.35,
+    "model": 0.3
+   },
+   "pluie": {
+    "n": 20,
+    "top": 0.292,
+    "calibrated": 0.35,
+    "model": 0.3
+   },
+   "polochons": {
+    "n": 20,
+    "top": 0.4,
+    "calibrated": 0.4,
+    "model": 0.4
+   },
+   "portes": {
+    "n": 20,
+    "top": 0.25,
+    "calibrated": 0.25,
+    "model": 0.25
+   },
+   "taupe": {
+    "n": 20,
+    "top": 0.45,
+    "calibrated": 0.45,
+    "model": 0.35
+   },
+   "tir": {
+    "n": 20,
+    "top": 0.725,
+    "calibrated": 0.65,
+    "model": 0.65
+   },
+   "tourniquet": {
+    "n": 20,
+    "top": 0.183,
+    "calibrated": 0.2,
+    "model": 0.2
+   },
+   "train": {
+    "n": 20,
+    "top": 0.35,
+    "calibrated": 0.4,
+    "model": 0.4
+   },
+   "transhumance": {
+    "n": 20,
+    "top": 0.15,
+    "calibrated": 0.15,
+    "model": 0.15
+   }
+  }
+ }
+}

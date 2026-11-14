@@ -1,0 +1,12 @@
+__pycache__/
+.pytest_cache/
+*.pyc
+results/pilot*
+results/.run*
+# Full replay video: attached to the GitHub release, not tracked.
+media/replay_cheater.mp4
+
+# Replay scene: kept out of the repository.
+viewer/
+results/quiz_mock.jsonl
+results/my_*
